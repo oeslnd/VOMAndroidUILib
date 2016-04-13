@@ -1,0 +1,21 @@
+<!-- 自定义menu popup -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:gravity="center_horizontal">
+    <!-- menu的item网格视图 
+    	numColumns根据item个数来
+    --> 
+	<GridView  
+		android:id="@+id/menuItemGridView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:scrollbars="none"
+		android:numColumns="auto_fit" 
+		android:verticalSpacing="1dp"
+    	android:horizontalSpacing="1dp"
+    	android:stretchMode="columnWidth"
+		android:listSelector="@android:color/transparent">
+	</GridView>
+</RelativeLayout>

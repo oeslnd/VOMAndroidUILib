@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!-- 圆角矩形-下右(按下蓝色) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_pressed="true">
+	    <shape>
+	        <solid android:color="@color/skyblue3"/>
+	        <corners android:bottomRightRadius="1dp" />
+	    </shape>
+	</item>
+    <item>
+        <shape>
+	        <solid android:color="@color/white"/>
+	        <corners android:bottomRightRadius="1dp" />
+	    </shape>
+    </item>
+</selector> 

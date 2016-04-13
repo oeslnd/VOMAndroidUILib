@@ -1,0 +1,63 @@
+<!-- 自定义-调节亮度seekbar -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp"
+	android:layout_height="120dp"
+	android:background="@drawable/fcrect"
+	android:gravity="center"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+	<LinearLayout 
+	    android:layout_width="fill_parent"  
+	    android:layout_height="78dp">
+		<SeekBar 
+	        android:id="@+id/mySeekbar"
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  
+	        android:focusable="true"  
+	        android:maxHeight="10dip"  
+	        android:minHeight="10dip"  
+	        android:paddingLeft="15dip"  
+	        android:paddingRight="15dip" 
+	        android:progressDrawable="@drawable/custom_seekbar_prod"  
+	        android:thumb="@drawable/custom_seekbar_thumb"
+	        android:layout_gravity="center"
+	        android:max="255"/>
+	</LinearLayout>
+	
+	<View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/LightGray" />
+	
+	<!-- 确定及取消按钮 -->
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="2dp"
+	    android:layout_marginRight="2dp"
+	    android:orientation="horizontal">
+		<Button
+		    android:id="@+id/customGainControlConfirmButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="42dp"
+		    android:layout_weight="1"
+		    android:text="确定"
+		    android:textSize="18sp" 
+		    android:background="@drawable/btn_fcrect_bottomleft"/>
+		<View 
+	        android:layout_width="0.5dp"
+	        android:layout_height="fill_parent"
+	        android:layout_gravity="center" 
+	        android:background="@color/LightGray" />
+		<Button
+		    android:id="@+id/customGainControlCancelButton"
+		    android:layout_width="fill_parent"
+		    android:layout_height="42dp"
+		    android:layout_weight="1"
+		    android:text="取消"
+		    android:textSize="18sp" 
+		    android:background="@drawable/btn_fcrect_bottomright" />
+	</LinearLayout>
+</LinearLayout>

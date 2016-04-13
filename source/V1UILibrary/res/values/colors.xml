@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基本系 -->
+    <color name="none">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="black">#000000</color>
+    <color name="black2">#666666</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="green">#FF008000</color>
+    <color name="gray">#FF808080</color>
+    
+    <!-- 灰色系 -->
+    <color name="LightGray">#D3D3D3</color>
+    <color name="gray91">#E8E8E8</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="darkGray1">#FFd0d0d0</color>
+    <color name="darkGray2">#FF707070</color>
+    <color name="darkGray3">#FFA9A9A9</color>
+    
+    <!-- 蓝色 
+    	颜色依次浅
+    -->
+    <color name="skyblue1">#6cb4fe</color>
+    <color name="skyblue2">#b5daff</color>
+    <color name="skyblue3">#d3e8ff</color>
+    
+    <!-- 红色系 -->
+    <color name="vred1">#cc0303</color>
+    <color name="vred2">#f76f6f</color>
+    <color name="vred3">#ffcccc</color>
+    <color name="vred4">#ffd8d8</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="rosyBrown">#FFBC8F8F</color>
+    <color name="hotPink">#FF69B4</color>
+    
+    <!-- 圆形滚动条 
+    startColor白色
+    -->
+    <color name="ycenterColor">#FFDC35</color>
+    <color name="yendColor">#CE0000</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义选择条每项视图 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:background="@drawable/hdownstyle_rect_nostroke">
+    <!-- 单选框由每项布局点击控制-->
+    <RadioButton
+         android:id="@+id/cstorOptionRadioButton"
+         android:text="文本说明"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:paddingLeft="10dp"
+         android:textColor="@color/black2"
+	     android:textSize="12sp"
+         android:clickable="false"/>
+</LinearLayout>

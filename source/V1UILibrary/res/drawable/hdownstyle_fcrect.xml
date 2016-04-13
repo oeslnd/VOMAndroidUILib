@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!-- 圆角矩形(按下灰色) -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_pressed="true">
+	    <shape>
+		    <solid android:color="@color/LightGray" /> 
+		    <stroke   
+			    android:width="2dp" 
+		        android:color="@color/silver" />
+			<corners   
+			    android:radius="1dp"/> 
+		</shape>
+	</item>
+    <item>
+        <shape>
+		    <solid android:color="@color/white" /> 
+			<stroke   
+			    android:width="2dp" 
+		        android:color="@color/silver" />
+			<corners   
+			    android:radius="1dp"/> 
+		</shape>
+    </item> 
+</selector>

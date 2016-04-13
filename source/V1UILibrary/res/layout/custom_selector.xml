@@ -1,0 +1,49 @@
+<!-- 自定义-选择列表 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp"
+	android:layout_height="400dp"
+	android:background="@drawable/fcrect"
+	android:layout_gravity="center"
+	android:orientation="vertical">
+	<TextView
+	    android:id="@+id/customSelectorTitel"
+	    android:text="标题"
+	    android:layout_width="wrap_content"
+	    android:layout_height="20dp"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    android:textColor="@color/black"
+	    android:textSize="15sp"
+	    android:layout_gravity="center_horizontal"/>
+	<View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/LightGray" />
+	<!-- listview -->
+    <ListView 
+        android:id="@+id/customSelectorListView"
+        android:layout_width="fill_parent"
+    	android:layout_height="320dp"
+    	android:divider="@null"
+    	android:dividerHeight="10dp"
+    	android:cacheColorHint="#00000000"
+    	android:listSelector="@android:color/transparent"/>
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp" 
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/LightGray" />
+	<Button
+	    android:id="@+id/customSelectorCancelButton"
+	    android:text="取消"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dp"
+	    android:layout_marginLeft="2dp"
+    	android:layout_marginRight="2dp"
+    	android:layout_marginBottom="2dp"
+	    android:textSize="18sp" 
+	    android:background="@drawable/btn_fcrect_bottomright" />
+</LinearLayout>

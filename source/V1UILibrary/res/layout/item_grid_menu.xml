@@ -1,0 +1,13 @@
+<!-- menu的网格每项视图 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <TextView 
+         android:id="@+id/menuItemTextView"
+		    android:text="菜单项说明"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			style="@style/maintab_item_style"
+			android:drawablePadding="5dp"
+	        android:background="@drawable/hdownstyle_rect_nostroke"/>
+</LinearLayout>

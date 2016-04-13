@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义加载条(使用图片) -->
+<animation-list android:oneshot="false"  
+	xmlns:android="http://schemas.android.com/apk/res/android">  
+  <item android:duration="100" android:drawable="@drawable/swloading1" />  
+  <item android:duration="100" android:drawable="@drawable/swloading2" />  
+  <item android:duration="100" android:drawable="@drawable/swloading3" />  
+  <item android:duration="100" android:drawable="@drawable/swloading4" />  
+</animation-list> 
